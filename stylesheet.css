@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+  text-align: right;
+  padding-top: 10px;
+}
+
+.header-right p {
+    display: inline-block;
+}
+
+.title {
+    background-image: url(main-vsual-nontitle.png);
+    background-size: contain;
+    margin-bottom: 50px;
+}
+
+.heading {
+    text-align: center;
+    padding: 50px 0 70px 0;
+}
+
+.heading h4{
+   line-height: 5px;
+}
+
+.message-wrapper {
+    height: 500px;
+    display: inline-block;
+}
+
+.message-header {
+    text-align: center;
+}
+
+.message-left {
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+}
+
+
+.lesson-wrapper {
+    height: 300px;
+    padding-top: 30px;
+}
+
+.lesson-header {
+    text-align: center;
+}
+
+
+.lesson-icon {
+    display: inline-block;
+    padding: 15px;
+}
+
+.lesson-icon p {
+    line-height: 0;
+}
+
+.form {
+    height: 350px;
+    text-align: center;
+    border-bottom: solid thin rgba(0,0,0,0.2);
+}
+
+.form-header p {
+    line-height: 0%;
+    padding-top: 30px;
+}
+
+.Form-Item-Input {
+    border-style: solid;
+    border-color: rgba(0,0,0,0.3);
+    border-radius:30px;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+span {
+    display: block;
+    margin: 0 auto;
+}
+
+.text {
+  width: 250px;
+  padding: 15px 40px;
+  color: white;
+  background-color: #5dca88;
+  box-shadow: 4px 4px #1a7940;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.text:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*荳九↓蜍輔￥*/
+    border-bottom: none;/*邱壹ｒ豸医☆*/
+  }
+
+footer {
+    height: 100px;
+}
+
+.footer-text {
+    text-align: right;
+    font-size: small;
+}
